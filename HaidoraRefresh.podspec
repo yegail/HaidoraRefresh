@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'HaidoraRefresh' => ['Pod/Assets/*']
   }
+  s.resources = 'Pod/Assets/HaidoraRefresh.bundle'
   s.frameworks = 'UIKit', 'Foundation'
 end
